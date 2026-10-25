@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#172b25" />
+  <meta name="description" content="Save the date — Jasmine & Afsal, November 29, 2026." />
+  <title>Jasmine & Afsal</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Tangerine:wght@400;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SIDE DECORATIONS (Lanterns & Crescents) -->
+  <div class="side-decoration left-side" aria-hidden="true">
+    <div class="hanging-wire"></div>
+    <div class="lantern">
+      <div class="lantern-top"></div>
+      <div class="lantern-body"></div>
+      <div class="lantern-bottom"></div>
+    </div>
+    <div class="crescent">☾</div>
+    <div class="star">★</div>
+    <div class="lantern small-lantern">
+      <div class="lantern-top"></div>
+      <div class="lantern-body"></div>
+      <div class="lantern-bottom"></div>
+    </div>
+  </div>
+
+  <div class="side-decoration right-side" aria-hidden="true">
+    <div class="hanging-wire"></div>
+    <div class="lantern small-lantern">
+      <div class="lantern-top"></div>
+      <div class="lantern-body"></div>
+      <div class="lantern-bottom"></div>
+    </div>
+    <div class="crescent">☾</div>
+    <div class="star">★</div>
+    <div class="lantern">
+      <div class="lantern-top"></div>
+      <div class="lantern-body"></div>
+      <div class="lantern-bottom"></div>
+    </div>
+  </div>
+  <!-- END SIDE DECORATIONS -->
+
+  <div class="petal-layer" aria-hidden="true" id="petalLayer"></div>
+  
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-heart">♡</span> Jasmine & Afsal</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#details">Details</a>
+      <a href="#invitation">Invitation</a>
+    </nav>
+    <a class="nav-cta" href="#invitation">You're invited <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span></span> A CELEBRATION OF LOVE <span></span></p>
+        <p class="small-script">Save the date</p>
+        <h1>Jasmine <i>&</i> Afsal</h1>
+        <div class="gold-rule"><span>✦</span></div>
+        <p class="hero-subtitle">Two hearts, one beautiful beginning.</p>
+        <div class="hero-date">
+          <span> SUNDAY</span>
+          <strong>29 <small>NOV</small> 2026</strong>
+        </div>
+        <a class="primary-btn" href="#details">Discover the celebration <span>↓</span></a>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro section-pad reveal" id="details">
+      <div class="section-kicker">WITH LOVE & BLESSINGS</div>
+      <h2>A new chapter <em>begins</em></h2>
+      <p class="intro-copy">Together with our families, we joyfully invite you to celebrate a special day filled with love, blessings, and beautiful memories.</p>
+      <div class="ornament">❧ <span>✦</span> ❧</div>
+      <div class="detail-grid">
+        <article class="detail-card">
+          <div class="detail-icon">◷</div>
+          <p class="card-label">THE DATE</p>
+          <h3>Sunday, 29 November</h3>
+          <p>2026</p>
+        </article>
+        <article class="detail-card">
+          <div class="detail-icon">⌖</div>
+          <p class="card-label">THE VENUE</p>
+          <h3>SNDP Auditorium</h3>
+          <p>Seethathodu</p>
+        </article>
+        <article class="detail-card">
+          <div class="detail-icon">♡</div>
+          <p class="card-label">THE TIME</p>
+          <h3>11:00 AM & 12:00 PM</h3>
+          <p>Join us for the celebration</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="countdown-section">
+      <div class="countdown-inner reveal">
+        <p class="section-kicker light">COUNTING DOWN TO FOREVER</p>
+        <h2>The big day is <em>coming</em></h2>
+        <div class="countdown" aria-label="Countdown to wedding day">
+          <div><strong id="days">--</strong><span>Days</span></div>
+          <div><strong id="hours">--</strong><span>Hours</span></div>
+          <div><strong id="minutes">--</strong><span>Minutes</span></div>
+          <div><strong id="seconds">--</strong><span>Seconds</span></div>
+        </div>
+        <p class="countdown-note">Every moment brings us closer to a beautiful beginning.</p>
+      </div>
+    </section>
+
+    <!-- ===== INVITATION SECTION (NIKAH CARD) ===== -->
+    <section class="invitation-section reveal" id="invitation">
+      <div class="nikah-card">
+        <div class="pattern-overlay"></div>
+        <div class="glow-ornament glow-tl"></div>
+        <div class="glow-ornament glow-br"></div>
+        <div class="glow-ornament glow-center"></div>
+
+        <div class="particle p1"></div>
+        <div class="particle p2"></div>
+        <div class="particle p3"></div>
+        <div class="particle p4"></div>
+        <div class="particle p5"></div>
+        <div class="particle p6"></div>
+        <div class="particle p7"></div>
+        <div class="particle p8"></div>
+        <div class="particle p9"></div>
+        <div class="particle p10"></div>
+
+        <div class="calligraphy-corner calligraphy-tl">﷽</div>
+        <div class="calligraphy-corner calligraphy-br">ﷺ</div>
+
+        <div class="nikah-content">
+          <div class="bismillah">
+            <span class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+            <span class="translation">In the Name of Allah, the Most Beneficent, the Most Merciful</span>
+          </div>
+
+          <div class="host-line">
+            <strong>Mr Mujeeb &amp; Mrs Shylaja Mujeeb</strong><br>
+            Kallupalathinkal House, Seethathodu · Mob: 9744622667<br>
+            <span style="font-size: 0.55rem; letter-spacing: 4px; color: #7a7a6a;">Kindly request your presence at the Nikkah ceremony of our beloved daughter</span>
+          </div>
+
+          <div class="name-section">
+            <div class="bride-groom-label">The Nikkah of</div>
+            <div class="names-row">
+              <span class="bride-name">Jasmine</span>
+              <span class="conjunction">&amp;</span>
+              <span class="groom-name">Afsal</span>
+            </div>
+          </div>
+
+          <div class="family-details">
+            <div class="family-block">
+              <span class="relation">Son of</span>
+              <span class="name">Mr Majeed &amp; Mrs Shylaja Majeed</span>
+            </div>
+          </div>
+
+          <div class="islamic-divider">
+            <span class="divider-line"></span>
+            <span class="divider-star">✦</span>
+            <span class="divider-line"></span>
+          </div>
+
+          <div class="details-grid">
+            <div class="detail-item">
+              <span class="detail-label">Date</span>
+              <span class="detail-value">Sunday, 29 Nov 2026</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Venue</span>
+              <span class="detail-value">SNDP Auditorium, Seethathodu</span>
+            </div>
+          </div>
+
+          <div class="closing-dua">
+            <span class="dua-arabic">بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</span>
+            <span class="dua-translation">May Allah bless you both, and shower His blessings upon you, and unite you in goodness.</span>
+          </div>
+
+          <div class="rsvp-section">
+            <button class="rsvp-btn" onclick="alert('JazakAllah Khair — we look forward to celebrating with you!')">
+              RSVP &nbsp;✦
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CLOSING SECTION WITH BISMI COMPLIMENT ===== -->
+    <section class="closing section-pad reveal">
+      <div class="closing-flower">✿</div>
+      <p class="small-script">A special wish from Bismi</p>
+      <h2>With love, <em>Bismi ♡</em></h2>
+      <p>
+        May this beautiful union be blessed with endless love,
+        happiness, and a lifetime of togetherness.
+      </p>
+      <p class="bismi-compliment">
+        A day filled with love, a lifetime filled with blessings.
+      </p>
+      <a class="primary-btn dark-btn"
+         href="https://www.google.com/maps/search/?api=1&query=SNDP+Auditorium+Seethathodu"
+         target="_blank"
+         rel="noreferrer">
+        Find the venue <span>↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <span>Jasmine <i>♡</i> Afsal</span>
+    <span>29 · 11 · 2026</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
